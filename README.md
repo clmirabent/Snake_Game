@@ -1,36 +1,37 @@
 # Snake Game
 
-Snake Game es un juego de consola desarrollado en C# basado en el clásico juego de la serpiente. 
-El objetivo es mover la serpiente por el tablero, comer manzanas para crecer y evitar colisiones con los bordes y consigo misma.
+is a console game developed in C#, based on the classic Snake game.
+The goal is to move the snake around the board, eat apples to grow, and avoid collisions with the edges and itself.
 
-**🛠️ Tecnologías utilizadas**
-- Lenguaje: C#
-- Paradigma: Programación Orientada a Objetos
-- Interfaz: Consola
+**🛠️ Technologies Used**
 
-**🎮 Controles**
-- ⬆️⬇️⬅️➡️ (Flechas del teclado) → Mover la serpiente
-- ESC → Salir del juego
+- Language: C#
+- Paradigm: Object-Oriented Programming
+- Interface: Console
 
-**📌 Características**
-- Crecimiento de la serpiente al comer manzanas
-- Generación aleatoria de obstáculos (bombas)
-- Detección de colisiones y finalización del juego
-- Representación visual en la consola
+**🎮 Controls**
+- ⬆️⬇️⬅️➡️ (Arrow keys) → Move the snake
+- ESC → Exit the game
+
+**📌 Features**
+- Snake growth when eating apples
+- Random generation of obstacles (bombs)
+- Collision detection and game over mechanics
+- Console-based visual representation
 
 **🚀 Instalación y ejecución**
-- Clona el repositorio:
+- Clone the repository:
 
 `git clone https://github.com/tu-usuario/snake-game-v2.git`
 
 `cd snake-game-v2`
 
-Compila el proyecto en Visual Studio o usa .NET CLI:
+Compile the project in Visual Studio or use the .NET CLI:
 `dotnet build`
 
 `dotnet run`
 
-** Mejoras futuras**
-- Implementación de sistema de puntuación
-- Modos de dificultad
-- Versión con gráficos en Unity
+** Future Improvements**
+- Implementation of a scoring system
+- Difficulty modes
+- A graphical version using Unity
